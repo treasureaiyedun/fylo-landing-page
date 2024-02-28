@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
       rel="shortcut icon"
       href="images/favicon-32x32.png"
       type="image/x-icon"
@@ -32,8 +36,13 @@
           and co-workers.
         </p>
         <form action="">
-          <input type="email" placeholder="Enter your email..." />
-          <input type="submit" value="Get Started" />
+          <input
+            type="email"
+            class="first-email"
+            required
+            placeholder="Enter your email..."
+          />
+          <input type="submit" class="first-submit" value="Get Started" />
         </form>
       </div>
       <div>
@@ -44,17 +53,20 @@
     <div class="curve">
       <div class="intro-2">
         <h1>Stay Productive, wherever you are</h1>
-        <p>
+        <p class="content">
           Never let location be an issue when accessing your files. Fylo has you
-          civered for all of your file storage needs.
+          covered for all of your file storage needs.
         </p>
 
-        <p>
+        <p class="content">
           Securely share files and folders with friends, family and colleagues
           for live collaboration. No email attachments required!
         </p>
 
-        <a href="#">See how Fylo works!</a>
+        <a href="#"
+          >See how Fylo works!
+          <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+        </a>
         <section class="card">
           <img src="images/icon-quotes.svg" alt="" />
           <p>
@@ -63,11 +75,12 @@
             collaboration machine.
           </p>
 
-          <div class="test">
+          <div class="ceo">
             <img class="avatar" src="images/avatar-testimonial.jpg" alt="" />
-
-            <h5><strong>Kyle Burton</strong></h5>
-            <p>Founder & CEO, Huddle</p>
+            <div class="ceo-identity">
+              <h5><strong>Kyle Burton</strong></h5>
+              <p>Founder & CEO, Huddle</p>
+            </div>
           </div>
         </section>
       </div>
@@ -87,12 +100,15 @@
       </div>
 
       <div class="c-form">
-        <form action="">
-          <div class="access-form-container">
-            <input type="email" placeholder="Enter your email..." />
-            <input type="submit" value="Get Started" />
-          </div>
-        </form>
+        <div class="access-form-container">
+          <form action="" class="second-email">
+            <input type="email" placeholder="example@email.com" required />
+          </form>
+
+          <form action="" class="second-submit">
+            <input type="submit" value="Get Started For Free" />
+          </form>
+        </div>
       </div>
     </section>
 
