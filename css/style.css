@@ -201,6 +201,7 @@ form .first-submit {
   margin-bottom: 1rem;
   font-size: smaller;
 }
+
 .second-submit input[type="submit"] {
   padding: 1rem 2rem;
   border-radius: 3px;
@@ -279,11 +280,13 @@ footer {
 ul {
   list-style: none;
 }
+
 .links-1,
 .links-2 {
   padding: 0 11rem 0 0;
   font-size: smaller;
 }
+
 .links a {
   color: #e0d6d6;
   text-decoration: none;
@@ -292,6 +295,7 @@ ul {
 .links ul li {
   padding-bottom: 1rem;
 }
+
 .fa-brands {
   border: 0.5px solid #ffffff;
   padding: 0.5rem;
