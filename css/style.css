@@ -81,9 +81,11 @@ form .first-submit {
   border-radius: 3px;
   font-size: 1.4rem;
 }
+
 .first-submit:hover {
   background-color: #6383e2;
 }
+
 .curve {
   display: flex;
   background-image: url("../images/bg-curve-desktop.svg");
@@ -92,14 +94,17 @@ form .first-submit {
   background-size: cover;
   height: 100%;
 }
+
 .curve .intro-2 {
   padding: 4rem;
   width: 50%;
   padding-top: 9rem;
 }
+
 .curve .intro-2 h1 {
   margin-bottom: 2rem;
 }
+
 .curve .intro-2 .content {
   margin-bottom: 2rem;
   font-size: smaller;
