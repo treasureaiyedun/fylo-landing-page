@@ -1,3 +1,2 @@
 # fylo-landing-page
-#Acknowledgements
-Frontend Mentor
+Fylo Landing Page Challenge from Frontend Mentor.
