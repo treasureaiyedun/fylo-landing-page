@@ -271,9 +271,11 @@ footer {
   left: 24px;
   top: 1px;
 }
+
 .links {
   display: flex;
 }
+
 ul {
   list-style: none;
 }
