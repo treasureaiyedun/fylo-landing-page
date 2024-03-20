@@ -52,6 +52,9 @@ header nav a {
   padding-left: 2rem;
   margin-top: 2rem;
 }
+.intro-1 h1{
+  margin-bottom: 18px;
+}
 
 .container {
   display: flex;
@@ -60,6 +63,7 @@ header nav a {
 }
 
 .container .intro-1 {
+  
   width: 50%;
   padding: 4rem;
   margin-top: 8rem;
@@ -70,6 +74,7 @@ form .first-email {
   margin: 1rem 0.5rem 0 0;
   font-size: 1.4rem;
   outline: none;
+  margin-bottom: 15px;
 }
 
 form .first-submit {
@@ -99,6 +104,7 @@ form .first-submit {
   padding: 4rem;
   width: 50%;
   padding-top: 9rem;
+  align-items: center;
 }
 
 .curve .intro-2 h1 {
@@ -305,4 +311,600 @@ ul {
 .fa-brands:hover {
   border-color: #7999f0;
   color: #7999f0;
+}/* Mobile Styles */
+@media only screen and (max-width: 768px) {
+  /* Adjustments for header */
+  header {
+    flex-direction: column;
+    padding: 1rem;
+  }
+ 
+
+  header nav {
+    margin-top: 1rem;
+    justify-content: center;
+  }
+
+  header nav a {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .intro .logo-img {
+    margin-top: 0;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .intro-1 h1{
+    margin-bottom: 18px;
+  }
+
+  /* Adjustments for container */
+  .container {
+    flex-direction: column;
+    margin-bottom: 4rem;
+  }
+  
+  .container .intro-1 {
+    width: 100%;
+    padding: 2rem;
+    margin-top: 4rem;
+    text-align: center;
+  }
+
+  .container .intro-1 form {
+    margin-top: 1rem;
+  }
+
+  /* Adjustments for curve section */
+  .curve {
+    background-size: auto;
+    height: auto;
+    padding: 2rem;
+    flex-direction: column-reverse;
+  }
+
+  .curve .intro-2  {
+    width: 100%;
+    padding: 2rem;
+    padding-top: 5rem;
+    text-align: center;
+  }
+  
+  
+  .image-1,
+  .image-2 {
+    margin: 2rem auto;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+  }
+
+  .card {
+    width: 100%;
+    margin: 2rem auto;
+  }
+
+  .ceo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .reach {
+    padding: 2rem;
+  }
+
+  .reach .first,
+  .reach .c-form {
+    width: 100%;
+    text-align: center;
+  }
+
+  .access-form-container {
+    padding: 2rem 0;
+  }
+
+  .second-email input[type="email"] {
+    padding: 1rem;
+    width: 100%;
+  }
+
+  .second-submit input[type="submit"] {
+    width: 100%;
+  }
+
+ 
+ /* Adjustments for footer */
+footer {
+  background-color: #070439;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+}
+
+@media only screen and (max-width: 768px) {
+  footer {
+    padding: 7rem;
+  }
+
+  .initial {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 2rem;
+    justify-items: center;
+  }
+
+  .contact,
+  .contact-01 {
+    width: auto;
+  }
+
+  .links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+  }
+
+  .links-1,
+  .links-2 {
+    padding: 0;
+    margin-bottom: 0;
+  }
+}
+
+  }
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2rem;
+  align-items: center;
+}
+
+header nav {
+  display: inline;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+header nav a {
+  text-decoration: none;
+  padding: 1rem;
+  margin-right: 1rem;
+  color: #5b5252;
+}
+
+.intro .logo-img {
+  padding-left: 2rem;
+  margin-top: 2rem;
+}
+.intro-1 h1 {
+  margin-bottom: 18px;
+}
+
+.container {
+  display: flex;
+  margin-bottom: 8rem;
+  width: 100%;
+}
+
+.container .intro-1 {
+  width: 50%;
+  padding: 4rem;
+  margin-top: 8rem;
+}
+
+form .first-email {
+  padding: 1rem 5rem 1rem 1rem;
+  margin: 1rem 0.5rem 0 0;
+  font-size: 1.4rem;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+form .first-submit {
+  padding: 1rem 4rem;
+  background-color: #3065f8;
+  border: 1px solid #e1d4d4;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 3px;
+  font-size: 1.4rem;
+}
+
+.first-submit:hover {
+  background-color: #6383e2;
+}
+
+.curve {
+  display: flex;
+  background-image: url("../images/bg-curve-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+}
+
+.curve .intro-2 {
+  padding: 4rem;
+  width: 50%;
+  padding-top: 9rem;
+  align-items: center;
+}
+
+.curve .intro-2 h1 {
+  margin-bottom: 2rem;
+}
+
+.curve .intro-2 .content {
+  margin-bottom: 2rem;
+  font-size: smaller;
+  width: 80%;
+  font-weight: 500;
+  color: #1f1e1e;
+}
+
+.curve .intro-2 a {
+  padding-bottom: 1rem;
+  color: #3c9f8f;
+}
+.curve .intro-2 a:hover {
+  color: #83e1d1;
+}
+
+.curve .intro-2 a i {
+  font-size: 1.2rem;
+}
+
+.image-1 {
+  margin: 9rem 0 0 9rem;
+  width: 50rem;
+}
+
+.image-2 {
+  width: 35rem;
+  margin: 12rem 0 0 3rem;
+}
+
+.card {
+  box-shadow: 1px 2px 3px #e5e1e1;
+  margin: 3rem 0px 0px;
+  padding: 2rem;
+  width: 55%;
+  border-radius: 3px;
+  background-color: #ffffff;
+}
+
+.card p {
+  font-size: smaller;
+}
+
+.ceo {
+  display: flex;
+  flex-direction: row;
+}
+
+.avatar {
+  width: 65px;
+  border-radius: 50%;
+  padding: 0.9rem;
+  margin: 0;
+}
+.ceo-identity h5 {
+  padding-top: 1.5rem;
+}
+
+.ceo-identity p {
+  font-size: smaller;
+}
+
+.reach {
+  display: flex;
+  padding: 4rem;
+  justify-content: space-between;
+  background-color: #585989;
+}
+
+.first {
+  width: 40%;
+  padding-top: 2rem;
+  color: #ffffff;
+}
+
+.first h3 {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.first p {
+  font-size: smaller;
+  font-weight: 400;
+  width: 85%;
+}
+
+.access-form-container {
+  display: block;
+  padding: 2rem 12rem 0 0;
+}
+
+.second-email input[type="email"] {
+  padding: 1rem 26rem 1rem 1rem;
+  margin-bottom: 1rem;
+  font-size: smaller;
+}
+
+.second-submit input[type="submit"] {
+  padding: 1rem 2rem;
+  border-radius: 3px;
+  background-color: #3065f8;
+  border: none;
+  color: #ffffff;
+}
+
+.second-submit input[type="submit"]:hover {
+  background-color: #6383e2;
+}
+
+footer {
+  background-color: #070439;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+}
+
+.initial {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.f-1 {
+  margin: 0;
+  padding: 0;
+}
+
+.f-1 .logo-img {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+}
+
+.icons img {
+  width: 20px;
+  align-items: flex-start;
+  margin: 0;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact {
+  width: 25%;
+  position: relative;
+}
+
+.contact-01 {
+  width: 25%;
+  position: relative;
+  margin-left: -29.5rem;
+  margin-top: 3rem;
+}
+
+.initial p {
+  position: absolute;
+  left: 24px;
+  top: 1px;
+}
+
+.links {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+}
+
+.links-1,
+.links-2 {
+  padding: 0 11rem 0 0;
+  font-size: smaller;
+}
+
+.links a {
+  color: #e0d6d6;
+  text-decoration: none;
+}
+
+.links ul li {
+  padding-bottom: 1rem;
+}
+
+.fa-brands {
+  border: 0.5px solid #ffffff;
+  padding: 0.5rem;
+  border-radius: 100%;
+}
+
+.fa-brands:hover {
+  border-color: #7999f0;
+  color: #7999f0;
+} /* Mobile Styles */
+@media only screen and (max-width: 768px) {
+  /* Adjustments for header */
+  header {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  header nav {
+    margin-top: 1rem;
+    justify-content: center;
+  }
+
+  header nav a {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .intro .logo-img {
+    margin-top: 0;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .intro-1 h1 {
+    margin-bottom: 18px;
+  }
+
+  /* Adjustments for container */
+  .container {
+    flex-direction: column;
+    margin-bottom: 4rem;
+  }
+
+  .container .intro-1 {
+    width: 100%;
+    padding: 2rem;
+    margin-top: 4rem;
+    text-align: center;
+  }
+
+  .container .intro-1 form {
+    margin-top: 1rem;
+  }
+
+  /* Adjustments for curve section */
+  .curve {
+    background-size: auto;
+    height: auto;
+    padding: 2rem;
+    flex-direction: column-reverse;
+  }
+
+  .curve .intro-2 {
+    width: 100%;
+    padding: 2rem;
+    padding-top: 5rem;
+    text-align: center;
+  }
+
+  .image-1,
+  .image-2 {
+    margin: 2rem auto;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+  }
+
+  .card {
+    width: 100%;
+    margin: 2rem auto;
+  }
+
+  .ceo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .reach {
+    padding: 2rem;
+  }
+
+  .reach .first,
+  .reach .c-form {
+    width: 100%;
+    text-align: center;
+  }
+
+  .access-form-container {
+    padding: 2rem 0;
+  }
+
+  .second-email input[type="email"] {
+    padding: 1rem;
+    width: 100%;
+  }
+
+  .second-submit input[type="submit"] {
+    width: 100%;
+  }
+
+  /* Adjustments for footer */
+  footer {
+    background-color: #070439;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+  }
+
+  @media only screen and (max-width: 768px) {
+    footer {
+      padding: 7rem;
+    }
+
+    .initial {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-gap: 2rem;
+      justify-items: center;
+    }
+
+    .contact,
+    .contact-01 {
+      width: auto;
+    }
+
+    .links {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 2rem;
+    }
+
+    .links-1,
+    .links-2 {
+      padding: 0;
+      margin-bottom: 0;
+    }
+  }
 }
